@@ -6,7 +6,7 @@ A minimal CLI to register your intellectual property (IP) on [Story Protocol](ht
 
 **Install:** Install the cli:
 ```bash
-npm install -g ip-story-cli
+npm install ip-story-cli
 ```
 
 Usage
