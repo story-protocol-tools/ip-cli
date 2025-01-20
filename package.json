@@ -10,6 +10,10 @@
         "module": "ESNext",
         "moduleResolution": "NodeNext"
     },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/story-protocol-tools/ip-story-cli.git"
+      },
     "scripts": {
         "prepare": "npm run build",
         "build": "tsc",
@@ -17,8 +21,8 @@
         "dev": "ts-node src/cli.ts"
     },
     "keywords": [],
-    "author": "",
-    "license": "ISC",
+    "author": "Atomizer",
+    "license": "MIT",
     "dependencies": {
         "@story-protocol/core-sdk": "^1.2.0-rc.4",
         "commander": "^10.0.0",
