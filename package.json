@@ -18,7 +18,8 @@
         "prepare": "npm run build",
         "build": "tsc",
         "start": "node dist/cli.js",
-        "dev": "ts-node src/cli.ts"
+        "dev": "ts-node src/cli.ts",
+         "test": "echo \"Error: no test specified\""
     },
     "keywords": [],
     "author": "Atomizer",
