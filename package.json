@@ -1,6 +1,6 @@
 {
     "name": "@story-protocol-tools/ip-cli",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "CLI tool to register IP on Story using the TypeScript SDK",
     "main": "dist/cli.js",
     "bin": {
@@ -13,13 +13,13 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/story-protocol-tools/ip-cli.git"
-      },
+    },
     "scripts": {
         "prepare": "npm run build",
         "build": "tsc",
         "start": "node dist/cli.js",
         "dev": "ts-node src/cli.ts",
-         "test": "echo \"Error: no test specified\""
+        "test": "echo \"Error: no test specified\""
     },
     "keywords": [],
     "author": "Atomizer",
