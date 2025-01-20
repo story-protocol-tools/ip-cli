@@ -1,0 +1,36 @@
+{
+    "name": "ip-story-cli",
+    "version": "1.0.1",
+    "description": "CLI tool to register IP on Story using the TypeScript SDK",
+    "main": "dist/cli.js",
+    "bin": {
+        "story-cli": "./dist/cli.js"
+    },
+    "compilerOptions": {
+        "module": "ESNext",
+        "moduleResolution": "NodeNext"
+    },
+    "scripts": {
+        "prepare": "npm run build",
+        "build": "tsc",
+        "start": "node dist/cli.js",
+        "dev": "ts-node src/cli.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@story-protocol/core-sdk": "^1.2.0-rc.4",
+        "commander": "^10.0.0",
+        "crypto": "1.0.1",
+        "dotenv": "^16.0.0",
+        "inquirer": "^8.2.6",
+        "pinata-web3": "^0.5.4",
+        "viem": "^2.22.10"
+    },
+    "devDependencies": {
+        "@types/inquirer": "^9.0.7",
+        "@types/node": "^18.19.71",
+        "typescript": "^5.0.0"
+    }
+}
